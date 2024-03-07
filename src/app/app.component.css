@@ -1,0 +1,64 @@
+:host {
+  --content-padding: 10px;
+  --search-bar-padding: 0.5rem; /* Espace interne pour la barre de recherche */
+  --search-button-left-margin: 0.5rem; /* Espace entre la barre de recherche et le bouton */
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: var(--content-padding);
+  box-shadow: 0px 5px 25px var(--shadow-color);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  margin-left: var(--content-padding);
+}
+
+.search-form input[type="text"] {
+  flex-grow: 1; /* La barre de recherche prendra tout l'espace disponible */
+  padding: var(--search-bar-padding);
+  border-radius: 20px;
+}
+
+.search-form button {
+  margin-left: var(--search-button-left-margin); /* Espace ajouté entre la barre de recherche et le bouton */
+  padding: var(--search-bar-padding);
+  border-radius: 20px;
+
+}
+
+/* Styles supplémentaires pour le bouton si nécessaire */
+
+/* Pensez à ajouter des styles responsifs pour les écrans plus petits si nécessaire */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+  .search-form {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+  }
+  .search-form input[type="text"],
+  .search-form button {
+    width: 100%;
+    margin-top: var(--content-padding); 
+  }
+  .search-form button {
+    margin-left: 0; 
+
+  }
+}

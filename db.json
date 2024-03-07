@@ -1,0 +1,39 @@
+{
+    "articles": [
+    {
+    "id": 0,
+    "title": "Apple all new design language",
+    "author": "Ameer Omidvar",
+    "photo": "https://miro.medium.com/v2/resize:fill:224:224/1*6QHaAGV4bp_AAGctwP3x5w.png",
+    "article": "My name is Ameer, currently the designer of Sigma. I’ve been in love with design since i was a kid. It was just my thing. To make things work better and look more beautiful. Of course as a design enthusiast, i was always inspired by how Apple kept pushing the boundaries further and further where every product was a design statement.Over the year’s Apple has revolutionized the industry over and over. In terms of UI’s they did it multiple times with Lisa (Personal computing), iPhone (Mobile Computing), Lately Vision pro (Spatial computing) and so many other iterations in between. I think we can agree that the Introduction of iOS 7 set the path for GUI’s for the past decade, But i think it’s about time."
+    },
+    {
+        "id": 1,
+        "title": "MacOS Apps For Developers - Nov/2023",
+        "author": "Gabriel Bonfim",
+        "photo": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*-5rUz1VINqjzRsrO",
+        "article": "Finally for Mac! DevToys was one of my favorite app for Windows, and now we got it on MacOS! I keep this app open 100% of the time.Devtoys is a diverse collection of coding utilities we developers use everyday. How many times did you have to search a website to get a color RGB code, or format a JSON, or decode a JWT token… Imagine having all of this tools on a single app. At the time I'm writing this, the app encompasses this features:"
+    },
+    {
+        "id": 2,
+        "title": "My Top 10 Clean Code Tips for Kotlin Mobile in 2024",
+        "author": "First I have fika, then I write apps.",
+        "photo": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*r5MuGU2Go3ROWWuI",
+        "article": "Which you can apply immediately to your code.In recent years, ‘clean code’ has become both a mark of good programming practice and a popular buzzword at the same time. While there are numerous guidelines and well-named principles out there, they sometimes contradict each other. For instance, following the SOLID principles can lead to highly testable code, but overly strict use of them might result in your code being fragmented into too many small classes, making it difficult to read, extend, and maintain.I have a long story of application development, journeying from Sinclair Basic through Pascal, Delphi and Erlang to Objective-C and Java for mobile applications, and now Kotlin and Swift. Throughout my career, I’ve adopted several techniques in my daily work which you can start using today to enhance your code quality."
+    },
+    {
+        "id": 3,
+        "title": "2 Weeks In: Is Apple Vision Pro Worth It?",
+        "author": "Mark Ellis",
+        "photo": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xlrSSa9Q-fhlOPoTDlciNQ.jpeg",
+        "article": "Last week, I attended Mobile World Congress (MWC) in Barcelona. With my feet, brain, and — admittedly slightly hungover — mood suggesting that I needed to take a break, I headed to the media village.Anyone who works on this side of the industry will know that media villages (or ‘press lounges’, as they’re sometimes called) are little slices of heaven hidden from the chaos of big trade shows. They’re quiet, there’s free coffee and food (usually cookies), and while they’re designed for people like myself to get work done, I have a sneaking suspicion they’re mainly used as a method of escape.As I sat there, minding my own business and uploading the footage I’d just shot of a bendable smartphone, I spotted something. Two people had entered the room — one looking entirely normal, the other… not so normal. He was wearing Vision Pro."
+    },
+    {
+        "id": 4,
+        "title": "how to increase revenue with crypto",
+        "author": "Enzo Morin",
+        "photo": "https://media.licdn.com/dms/image/D4E03AQHlTXRQOWkWtA/profile-displayphoto-shrink_400_400/0/1708420625690?e=1715212800&v=beta&t=vCp5xyZ0Q35BHskRfVAJolxI-WWWw62MwQIN-gQm-O4",
+        "article": "In the ever-evolving financial landscape, cryptocurrency has emerged as a groundbreaking asset class, offering businesses and individuals alike novel ways to increase their revenue. With its decentralized nature, enhanced security features, and global accessibility, crypto provides multiple avenues for revenue generation that were previously untapped or simply non-existent. This article delves into effective strategies for leveraging cryptocurrency to boost your income, covering investment, payment integration, and innovative crypto-based services."
+    }
+    ]
+}

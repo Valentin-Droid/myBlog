@@ -1,13 +1,19 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { RouterModule } from '@angular/router';
+import { SearchService } from './search.service';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [HomeComponent, RouterModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'myBlog';
+  constructor(private searchService: SearchService) {}
+
+  onSearch(text: string): void {
+    this.searchService.filterResults(text);
+  }
 }
