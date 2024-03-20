@@ -1,5 +1,10 @@
 <!-- src/app/home/home.component.html -->
-<section class="results">
-  <app-article *ngFor="let article of searchService.filteredArticleList" [article]="article">
-  </app-article>
-</section>
+<div class="container">
+  <section class="results">
+    <app-article *ngFor="let article of searchService.filteredArticleList" [article]="article">
+    </app-article>
+  </section>
+  <div class="article-read-section">
+    <app-article-read></app-article-read>
+  </div>
+</div>

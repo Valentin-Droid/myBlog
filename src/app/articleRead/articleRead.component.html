@@ -1,0 +1,8 @@
+<h2>Articles read</h2>
+<div *ngIf="readService.articles.length">
+        <button type="button" class="clear" (click)="readService.clear()">Clear articles read</button>
+        <div *ngFor='let article of readService.articles'>
+          <p>{{ article.title }}</p> 
+        </div>
+</div>
+      

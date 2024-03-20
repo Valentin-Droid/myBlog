@@ -1,13 +1,15 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ArticleComponent } from '../article/article.component';
+import { ArticleRead } from '../articleRead/articleRead.component';
 import { Article } from '../Article';
 import { SearchService } from '../search.service';
+
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, ArticleComponent],
+  imports: [CommonModule, ArticleComponent, ArticleRead],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
 })

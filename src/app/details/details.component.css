@@ -6,6 +6,32 @@
   float: right;
 }
 
+.go-back-button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white; 
+  border: none; 
+  border-radius: 5px;
+  font-size: 16px; 
+  font-weight: bold;
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+  outline: none; 
+}
+
+.go-back-button:hover {
+  background-color: #2980b9; 
+}
+
+.go-back-button:focus {
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.5);
+}
+
+.go-back-button:active {
+  background-color: #2471a3; 
+}
+
+
 .listing-heading {
   font-size: 48pt;
   font-weight: bold;
